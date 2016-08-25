@@ -37,20 +37,11 @@
     "legitimate"
   ],
   "categorical_features": {
-    "double_slash_redirecting": [
-      "phishing",
-      "legitimate"
-    ],
-    "SFH": [
-      "legitimate",
-      "suspicious",
-      "phishing"
-    ],
     "Domain_registeration_length": [
       "phishing",
       "legitimate"
     ],
-    "Iframe": [
+    "port": [
       "legitimate",
       "phishing"
     ],
@@ -58,57 +49,13 @@
       "legitimate",
       "phishing"
     ],
-    "HTTPS_token": [
-      "phishing",
-      "legitimate"
-    ],
-    "on_mouseover": [
+    "popUpWidnow": [
       "legitimate",
       "phishing"
     ],
-    "Links_pointing_to_page": [
-      "suspicious",
+    "Statistical_report": [
       "phishing",
       "legitimate"
-    ],
-    "age_of_domain": [
-      "phishing",
-      "legitimate"
-    ],
-    "Redirect": [
-      "phishing",
-      "suspicious"
-    ],
-    "URL_Length": [
-      "suspicious",
-      "phishing",
-      "legitimate"
-    ],
-    "SSLfinal_State": [
-      "legitimate",
-      "suspicious",
-      "phishing"
-    ],
-    "Shortining_Service": [
-      "legitimate",
-      "phishing"
-    ],
-    "Submitting_to_email": [
-      "phishing",
-      "legitimate"
-    ],
-    "Result": [
-      "phishing",
-      "legitimate"
-    ],
-    "having_At_Symbol": [
-      "legitimate",
-      "phishing"
-    ],
-    "Links_in_tags": [
-      "suspicious",
-      "legitimate",
-      "phishing"
     ],
     "having_IP_Address": [
       "phishing",
@@ -118,38 +65,34 @@
       "phishing",
       "legitimate"
     ],
-    "Statistical_report": [
+    "Page_Rank": [
       "phishing",
       "legitimate"
+    ],
+    "on_mouseover": [
+      "legitimate",
+      "phishing"
     ],
     "having_Sub_Domain": [
       "legitimate",
       "phishing",
       "suspicious"
     ],
-    "Page_Rank": [
-      "phishing",
-      "legitimate"
-    ],
-    "Prefix_Suffix": [
-      "phishing",
-      "legitimate"
-    ],
-    "port": [
-      "legitimate",
-      "phishing"
-    ],
-    "popUpWidnow": [
-      "legitimate",
-      "phishing"
-    ],
     "DNSRecord": [
       "phishing",
       "legitimate"
     ],
-    "Request_URL": [
-      "legitimate",
-      "phishing"
+    "HTTPS_token": [
+      "phishing",
+      "legitimate"
+    ],
+    "Submitting_to_email": [
+      "phishing",
+      "legitimate"
+    ],
+    "age_of_domain": [
+      "phishing",
+      "legitimate"
     ],
     "RightClick": [
       "legitimate",
@@ -160,12 +103,69 @@
       "phishing",
       "suspicious"
     ],
+    "URL_Length": [
+      "suspicious",
+      "phishing",
+      "legitimate"
+    ],
+    "Google_Index": [
+      "legitimate",
+      "phishing"
+    ],
+    "Prefix_Suffix": [
+      "phishing",
+      "legitimate"
+    ],
+    "Result": [
+      "phishing",
+      "legitimate"
+    ],
+    "Redirect": [
+      "phishing",
+      "suspicious"
+    ],
+    "SSLfinal_State": [
+      "legitimate",
+      "suspicious",
+      "phishing"
+    ],
+    "Links_pointing_to_page": [
+      "suspicious",
+      "phishing",
+      "legitimate"
+    ],
     "web_traffic": [
       "legitimate",
       "phishing",
       "suspicious"
     ],
-    "Google_Index": [
+    "double_slash_redirecting": [
+      "phishing",
+      "legitimate"
+    ],
+    "Iframe": [
+      "legitimate",
+      "phishing"
+    ],
+    "Request_URL": [
+      "legitimate",
+      "phishing"
+    ],
+    "having_At_Symbol": [
+      "legitimate",
+      "phishing"
+    ],
+    "SFH": [
+      "legitimate",
+      "suspicious",
+      "phishing"
+    ],
+    "Links_in_tags": [
+      "suspicious",
+      "legitimate",
+      "phishing"
+    ],
+    "Shortining_Service": [
       "legitimate",
       "phishing"
     ]
